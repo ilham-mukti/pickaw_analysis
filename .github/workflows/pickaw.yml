@@ -23,7 +23,6 @@ jobs:
           pip install datetime
           pip install pytz
           pip install pandas
-          pip install json
                   
       - name: Execute Script
         run: |
