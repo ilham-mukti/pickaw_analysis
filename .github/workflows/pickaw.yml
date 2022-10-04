@@ -2,7 +2,7 @@ name: Update Pickaw List Contest
 
 on:
   schedule:
-    - cron: "*/40 * * * *" #run every 40 minutes
+    - cron: "*/20 * * * *" #run every 40 minutes
 
 jobs:
   run:
