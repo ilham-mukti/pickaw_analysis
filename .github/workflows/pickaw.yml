@@ -1,0 +1,42 @@
+name: Update Pickaw List Contest
+
+on:
+  schedule:
+    - cron: "*/10 * * * *" #run every 10 minutes
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo content
+        uses: actions/checkout@v2
+
+      - name: Setup python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.10.1
+
+      - name: Install dependencies
+        run: |
+          pip install requests
+          pip install datetime
+          pip install pytz
+          pip install pandas
+          pip install json
+                  
+      - name: Execute Script
+        run: |
+          python pickaw_analysis.py
+      - name: Commit File
+        run: |
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add .
+          now=$(TZ=":Asia/Jakarta" date)
+          git commit -m "Update $now"
+      - name: Push Changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref }}
