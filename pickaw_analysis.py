@@ -41,7 +41,7 @@ class PickawContest:
         'x-xsrf-token': '95fc6fd1e8a71870e41cc33ff4fa309eka0uDKVWhA0ickjZpsHuLhg0A/idsUXPgmhkNGDZhLaDRa8qOiI1kDY38UIdwl3vJ1swAHZzzyP5ltGqPhcF7OubniiaUnpn/TXr2aDotATByMMrNjXvON4TBlsdUdk3',
     }
 
-  def request_data(self, pages):
+  def request_data(self, pages=3):
     my_dict = {}
     for page in range(1, pages):
       print(page)
@@ -70,15 +70,15 @@ class PickawContest:
     self.create_file(self.seed_list, merge_dict)
     return dict_baru
 
-  def get_contest(self, pages):
+  def get_contest(self):
     is_new = not os.path.isfile(self.seed_list)
     if is_new: #Jika baru
       print("bikin baru")
-      data = self.request_data(pages)
+      data = self.request_data()
       self.create_file(self.seed_list, data)
     else:
       print("sudah ada")
-      data_baru = self.request_data(pages)
+      data_baru = self.request_data()
       data = self.check_seed(data_baru)
     print(data)
     return data
@@ -90,6 +90,7 @@ class PickawContest:
         url_seed = f'https://pickaw.app/api/v1/draws/seed/{seed}'
         response = requests.get(url_seed, cookies=self.cookies, headers=self.headers).json()
         entries_count = response['sources'][0]['remote_entries_count']
+
         weighted_entries_count = response['sources'][0]['weighted_entries_count']
         drawn_at = response['drawn_at'] 
         loaded_at = response['loaded_at'] 
@@ -105,10 +106,12 @@ class PickawContest:
           category_entries = ">=25"
         else:
           category_entries = "<=25"
+
         print(f"{seed} -> {winner_entries} / {entries_count} => {entries_percentage}")
         my_dict.append({'host': ga_host, 'seed': seed, 'url_seed': url_seed, 'drawn_at': drawn_at, 'loaded_at': loaded_at, 'winner': winner_account, 'winner_entries': winner_entries, 'entries_count': entries_count, 'weighted_entries_count': weighted_entries_count,'entries_percentage': entries_percentage, 'category_entries': category_entries})
       df = self.save_to_dataframe(my_dict)
     self.update_readme()
+
 
   def save_to_dataframe(self, my_dict):
     df = pd.DataFrame(my_dict, columns=my_dict[0].keys())
@@ -129,5 +132,5 @@ class PickawContest:
          f.close()
 
 model = PickawContest()
-seed_code = model.get_contest(pages=2)
+seed_code = model.get_contest()
 model.get_winners(seed_code)
