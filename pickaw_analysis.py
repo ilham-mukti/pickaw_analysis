@@ -135,5 +135,5 @@ class PickawContest:
          f.close()
 
 model = PickawContest()
-seed_code = model.get_contest(pages=5)
+seed_code = model.get_contest(pages=3)
 model.get_winners(seed_code)
