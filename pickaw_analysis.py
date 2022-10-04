@@ -44,6 +44,7 @@ class PickawContest:
   def request_data(self, pages):
     my_dict = {}
     for page in range(1, pages):
+      print(page)
       params = {
           'page': page,
       }
@@ -79,7 +80,6 @@ class PickawContest:
       print("sudah ada")
       data_baru = self.request_data(pages)
       data = self.check_seed(data_baru)
-
     print(data)
     return data
 
@@ -108,9 +108,7 @@ class PickawContest:
           category_entries = "<=25"
 
         print(f"{seed} -> {winner_entries} / {entries_count} => {entries_percentage}")
-
         my_dict.append({'host': ga_host, 'seed': seed, 'url_seed': url_seed, 'drawn_at': drawn_at, 'loaded_at': loaded_at, 'winner': winner_account, 'winner_entries': winner_entries, 'entries_count': entries_count, 'weighted_entries_count': weighted_entries_count,'entries_percentage': entries_percentage, 'category_entries': category_entries})
-
       df = self.save_to_dataframe(my_dict)
     self.update_readme()
 
@@ -131,7 +129,6 @@ class PickawContest:
       now = datetime.now(jkt)
       with open('README.md', 'w') as f:
          f.write(f"# Data tanggal: {now}\n\n")
-
          f.close()
 
 model = PickawContest()
