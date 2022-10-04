@@ -90,7 +90,6 @@ class PickawContest:
         url_seed = f'https://pickaw.app/api/v1/draws/seed/{seed}'
         response = requests.get(url_seed, cookies=self.cookies, headers=self.headers).json()
         entries_count = response['sources'][0]['remote_entries_count']
-
         weighted_entries_count = response['sources'][0]['weighted_entries_count']
         drawn_at = response['drawn_at'] 
         loaded_at = response['loaded_at'] 
@@ -106,12 +105,10 @@ class PickawContest:
           category_entries = ">=25"
         else:
           category_entries = "<=25"
-
         print(f"{seed} -> {winner_entries} / {entries_count} => {entries_percentage}")
         my_dict.append({'host': ga_host, 'seed': seed, 'url_seed': url_seed, 'drawn_at': drawn_at, 'loaded_at': loaded_at, 'winner': winner_account, 'winner_entries': winner_entries, 'entries_count': entries_count, 'weighted_entries_count': weighted_entries_count,'entries_percentage': entries_percentage, 'category_entries': category_entries})
       df = self.save_to_dataframe(my_dict)
     self.update_readme()
-
 
   def save_to_dataframe(self, my_dict):
     df = pd.DataFrame(my_dict, columns=my_dict[0].keys())
