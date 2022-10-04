@@ -8,7 +8,7 @@ import json
 
 class PickawContest:
   def __init__(self):
-    self.pages = 4
+    self.pages = 3
     self.output_file = "list_pickaw_contest.csv"
     self.seed_list = "seed_list.json"
     self.cookies = {
