@@ -8,6 +8,7 @@ import json
 
 class PickawContest:
   def __init__(self):
+    self.pages = 4
     self.output_file = "list_pickaw_contest.csv"
     self.seed_list = "seed_list.json"
     self.cookies = {
@@ -41,9 +42,9 @@ class PickawContest:
         'x-xsrf-token': '95fc6fd1e8a71870e41cc33ff4fa309eka0uDKVWhA0ickjZpsHuLhg0A/idsUXPgmhkNGDZhLaDRa8qOiI1kDY38UIdwl3vJ1swAHZzzyP5ltGqPhcF7OubniiaUnpn/TXr2aDotATByMMrNjXvON4TBlsdUdk3',
     }
 
-  def request_data(self, pages=3):
+  def request_data(self):
     my_dict = {}
-    for page in range(1, pages):
+    for page in range(1, self.pages):
       print(page)
       params = {
           'page': page,
@@ -64,10 +65,10 @@ class PickawContest:
     for key, value in data_baru.items():
       if key not in data_lama.keys():
         dict_baru[key] = value
-
     f.close()
     merge_dict = {**data_lama, **dict_baru}
     self.create_file(self.seed_list, merge_dict)
+    self.dict_baru = dict_baru
     return dict_baru
 
   def get_contest(self):
@@ -90,7 +91,6 @@ class PickawContest:
         url_seed = f'https://pickaw.app/api/v1/draws/seed/{seed}'
         response = requests.get(url_seed, cookies=self.cookies, headers=self.headers).json()
         entries_count = response['sources'][0]['remote_entries_count']
-
         weighted_entries_count = response['sources'][0]['weighted_entries_count']
         drawn_at = response['drawn_at'] 
         loaded_at = response['loaded_at'] 
@@ -106,12 +106,10 @@ class PickawContest:
           category_entries = ">=25"
         else:
           category_entries = "<=25"
-
         print(f"{seed} -> {winner_entries} / {entries_count} => {entries_percentage}")
         my_dict.append({'host': ga_host, 'seed': seed, 'url_seed': url_seed, 'drawn_at': drawn_at, 'loaded_at': loaded_at, 'winner': winner_account, 'winner_entries': winner_entries, 'entries_count': entries_count, 'weighted_entries_count': weighted_entries_count,'entries_percentage': entries_percentage, 'category_entries': category_entries})
       df = self.save_to_dataframe(my_dict)
-    self.update_readme()
-
+    self.update_readme(seed_code)
 
   def save_to_dataframe(self, my_dict):
     df = pd.DataFrame(my_dict, columns=my_dict[0].keys())
@@ -124,11 +122,12 @@ class PickawContest:
       f.close()
       print("selesai")
 
-  def update_readme(self):
+  def update_readme(self, data_baru=None):
       jkt = timezone('Asia/Jakarta')
       now = datetime.now(jkt)
       with open('README.md', 'w') as f:
          f.write(f"# Data tanggal: {now}\n\n")
+         f.write(f'* {data_baru}\n')
          f.close()
 
 model = PickawContest()
