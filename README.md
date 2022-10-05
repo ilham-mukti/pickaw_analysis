@@ -1,3 +1,3 @@
-# Data tanggal: 2022-10-06 00:30:37.700470+07:00
+# Data tanggal: 2022-10-06 01:06:02.557971+07:00
 
-* {'Ey6AzpP9CqpNkYcV': 1309, 'uSX4DErJTFdVyXBR': 2254, 'FzvWkQKLEz4Xqj7p': 10049, 'oS6U4drxZbhu1QDm': 3396, 'XkKPVtkNvnEj3bmv': 3522}
+* {'RI9B4sQG7oLhwCOD': 892, 'D6TnSWdADksobSe6': 3541, 'nQ031OYRRJ8djIxV': 5255}
