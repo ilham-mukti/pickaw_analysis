@@ -1,3 +1,3 @@
-# Data tanggal: 2022-10-15 20:24:32.246457+07:00
+# Data tanggal: 2022-10-15 21:01:06.196800+07:00
 
-* {'RPc61BqyGgEJGcHm': 1579, 'iF6C72HP8iaonlop': 1889, 'JfSVrLrcDqFjjoCQ': 3585, 'aHMd2AlI1MrrWxdm': 2596, 'pBByJ8aO37PQgqju': 9527, 'oVOG7FREHWXOfZcD': 16667}
+* {'tbAvqcKDDXXpuPm1': 4824, '0wgDlMb6xNEUc9r2': 3163, 'gjDLctrWCM2CFcog': 3767}
