@@ -1,3 +1,3 @@
-# Data tanggal: 2022-10-17 08:46:42.340541+07:00
+# Data tanggal: 2022-10-17 11:29:10.788884+07:00
 
-* {'zkrZ2XR7MF8uDFJ5': 4166, 'cmqGiyytPkPioyxp': 4268, 'jFOIgkMseyd6vuLJ': 3092, '14F5DItwhaM1x0N5': 14158, 'OpUcPIwwA7dRZzWr': 4585, '18Q4pJDVbwmsPveY': 2348, 'a4oXhFLOlbMlG1Q4': 12086, 'cSUKwf6gasrjKDjt': 7176}
+* {'m9TwlibyvflIZzPw': 2032, 'SiyESEFdKCzg6ykL': 1886, 'v9PwioGFQ2XBlWBM': 1878, 'SRJnkldVTq3L9EkG': 1716, '8hdAlbxEnHPYDtT1': 1684, '0YwOknPbZ5FzA8bD': 7304, 'wVzgT2zhbA1o30GB': 3097, '62MRCHpNRtoaUWS2': 10610, 'bCFiIJZjpDWf4mfF': 3608, 'mR4O3GyziC2ZMinI': 2384, 'dwVlqtWQckRZwDFs': 22171, '7Meanvwt2PAFe4Bk': 10068, 'gkUZ6BQFqhCuPMmJ': 23114}
