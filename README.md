@@ -1,3 +1,3 @@
-# Data tanggal: 2022-10-18 23:00:35.987312+07:00
+# Data tanggal: 2022-10-18 23:48:02.196909+07:00
 
-* {'rZFhuTi1kUNwOvL3': 11053, 'CUcmYXdInJONQ2CI': 3684, 'FQHwAkt81jsMl2GC': 12892}
+* {'OPVugT4Wxk1Pslmf': 4943}
