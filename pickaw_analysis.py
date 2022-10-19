@@ -13,14 +13,14 @@ class PickawContest:
     self.seed_list = "seed_list.json"
     self.cookies = {
         'i18n-lang': 'en',
-        '_ga': 'GA1.2.367684644.1665811144',
-        '_gid': 'GA1.2.1270628231.1665811144',
-        '_fbp': 'fb.1.1665811144465.357421690',
-        'crisp-client%2Fsession%2Fad02dfcf-7460-460d-bc6d-658345899d51': 'session_3d39dea8-bd1d-40ec-8e21-43da153e1c1a',
+        '_ga': 'GA1.2.511745224.1666173838',
+        '_gid': 'GA1.2.1358129550.1666173838',
+        '_fbp': 'fb.1.1666173838731.2809702',
+        'crisp-client%2Fsession%2Fad02dfcf-7460-460d-bc6d-658345899d51': 'session_cf119850-771e-4636-a963-571863ee31a6',
+        'registration': '86a719bcb494a956865de1a35a2c9a06qS4fAZm%2FLIXoMhbZzQFM1IgWwsXC2ibXKYkubFed%2Fkw2VOTTyDlSFFu4%2FqOeenwxSRCTFEerPg4jvAVp6IoJ%2Byo6GTgSK5MpUNlVBeo6YuhVIyxD0%2Fp7tiH8rV%2B0X1zu9RM61MqNDp2z3MvnRh1PL%2Bot9ZzXEqD8OXDDoWdMI4NtcAZRWtMaOJ5rjCBxo525Pirk0zcZYJs7r2D7KMa%2FakcrWpjLbAH1I5omRwON0Q6mpfMdBk5eG3noCxIJ7fCE1w7njm3w0GQ7iCXTKTMGY%2FqqW78XDMGpuQmPY7P8F02dt0Dbgoqk5HXkifUWaMPFw6W37PCQATnORn5fxOFdNNQyRW03xmy2EivABOluxOy4JvVXtwNSx0kf7it4oolyRh7M1Hb9wj%2FFPsVmXn8QiqSViAcSxZdoR7t9rQPDu%2BmkvQPC8uyCRpI9%2FRNmN4BgyBJY%2BVsPeVxOclvfKHjVMRlxhWhYFC6PcX%2FHfjM8UwchAanavN%2BIA18kADfd9X5V4QWIznOr9hskp0Xc7EQFwFmPXGE%2Fc7vuZW8ndGT1zJpAYzq6Nodw4r5pYxiaAccNGgwfUw4R7nSLJ2yoW%2B4BijwYtT9FuI3tcSigoZLWc8CCJ4uRCIyEmgPmI5iOYC5wuWntYDZ583cEZx%2Bqk5u1wVvKxJbz%2FSIqH6VVpPGkFvr4h%2FcJyeU8Al9Exk%2BHinmWMLcc1BHfC3BvfpzUQu8lAbdTAmkAJroXhtaXGajSqQt5r3fEtTgWKnvNNPYTKe%2FeuHc8G%2BCQ6QJGtJYJ9oXmY3vAaAfNuNmlF2RH8L%2BYGKdL2tfH%2Bb960kyL1%2BPsIK3qBX%2BowoNcIgYmJ9cJP26Mz4ij5k0DbbVFqFpZK%2Bv7Iok%3D',
         'crisp-client%2Fsocket%2Fad02dfcf-7460-460d-bc6d-658345899d51': '1',
-        'registration': '13671c4f940343259887329f34792118sq7uT7DbNgNBvqerfyquWJa86%2BjY6yi7yYzFpgWKy4BAwGccR%2FxNMisNRREkKfyVCDp8Xl3qSf3LGZeG4AWBPKL%2BfOxboYnl8sSgHBqLOM01rzdMYkeD1Y8dldXCzG%2F3FRxaFan%2FWB2E8%2FJJc%2FGpw%2BPle%2F0fzrWih0%2FTne5dPJ1zrSgW0CNpxHcrbogGz7DbgUKRqln3flM%2BgF%2FxlnYV%2BLdO1DqjLmyZyKb7oWgHBAV0dM2dZX6MW1gdUgFHT3gcx8Nv8L1%2BLwZ85M1SDE9KZ5rY05lidL6YJLBnCBZ8aL19SPX1mpOVMIbtz%2BWjyp0Xz%2FdMzA3sRrrEjnV7cP4j57Wkm%2F1A9AxwHY4zZXQMkNzLoZPtKlPslyYSHJJVNr8kUjfHDV4jXunuslwcLQmij4KJXPGikpojshoFWzSt3GReTVmYodQEhrC0fIw2d3%2B3O8LKIvJQD%2FXEvh0TvDtMJZP4VzW0PByANQLkoc75H9Q5YpTO3XCxKKFkWs5qdq7lrAiyjHnzgNWv6ycWN5Qo4rmK5gyWpUFD165eOXPYz3%2BTkLRXqBrNcISscW4gomVHKFpigWGtE89jHgxgYjfw%2FpNU00bdfUhGgsfIkAnTbL2C6ZShiGUD4Hs1DEGTHBV2nQEMHi9iYwJGrdDvrMKJwCqZEbYVpDF%2B4LQebMqzhuDMqN8WZjpmYZ3k5F8QZ1orBHAk%2F5tdJsXjETJ%2FpzybeRd1ysz4jpWZlDb6MH%2FhFbFXIGIEJElpLe26Wj2tAR47pWoae4soJ13I9%2BAFhGKUY79yf5zYygG4DfoBZpiLRVVw8ykygyKvyaF0%2BLau5CHsvcD46v66hDFKN1dx88Dqag%3D%3D',
-        'session': '5b52e8745adcc290c412d72f4686a5c6kw6rDVz4HGu%2Bmjv7Q%2FLjmVzFhNbeNxxjJOdCnjWUQrMRwIU3TQ4%2FmUIq4qrwI7FPS%2FkN8H0CQe6xO1UUaxUN8NdMM4n0VQDaBX9L1Sk%2F3HrN4eyqjhWr2vUXUyG%2BpsNE',
-        'XSRF-TOKEN': 'a22ef85f36bd518c68271ee0cd72d30d3BMnTujlcvm9BEZPz7jGzUl66xEa83JdNlep%2FjAv%2Bz%2BYs%2FRb%2B6biw0qtX9VaivQhvHLeYKnkXFlW1Y7eB8ucH0q05dlyvt4xDPKtAMTgOkRH5vOj3XToy1drdWggp7jg',
+        'session': 'f1e1897fb589f2e6807a85f4cdb1a93eoUhOzVlQINqFxuRtm7g0XaFQng%2FnhdT0bVgyDxKzvtX%2F%2FM%2BQYywYT6FVVj3sYKX3QzaQLOvUMD0gcZ54IKeXAaRoMCko5ocuAw1XDw%2BSDG%2Byl5GoxethTWyaa%2Bfh5QOg',
+        'XSRF-TOKEN': 'f949c10a37fc9d5e33b670e20d7cffff4iiiWlWfgMNVRSLQim4eeAw2%2FcwEek4d10s7yOQWafjuu6o2aubLWub5MTaKvU2whu5Fyu4AMrnyz15qmuvdDJuz1n2oDIt6qFr6SNgTDHwNLZEie73sQFB3buoE4Ek2',
         '_gat': '1',
     }
 
@@ -38,8 +38,8 @@ class PickawContest:
         'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36',
         'x-pickaw-version': '1.22.0',
         'x-requested-with': 'XMLHttpRequest',
-        'x-websocket-id': 'YSXQD2IO-7pKgRjTAFI0',
-        'x-xsrf-token': 'a22ef85f36bd518c68271ee0cd72d30d3BMnTujlcvm9BEZPz7jGzUl66xEa83JdNlep/jAv+z+Ys/Rb+6biw0qtX9VaivQhvHLeYKnkXFlW1Y7eB8ucH0q05dlyvt4xDPKtAMTgOkRH5vOj3XToy1drdWggp7jg',
+        'x-websocket-id': '__OD71aqEw63_JGdAHgr',
+        'x-xsrf-token': 'f949c10a37fc9d5e33b670e20d7cffff4iiiWlWfgMNVRSLQim4eeAw2/cwEek4d10s7yOQWafjuu6o2aubLWub5MTaKvU2whu5Fyu4AMrnyz15qmuvdDJuz1n2oDIt6qFr6SNgTDHwNLZEie73sQFB3buoE4Ek2',
     }
 
   def request_data(self):
