@@ -13,15 +13,12 @@ class PickawContest:
     self.seed_list = "seed_list.json"
     self.cookies = {
         'i18n-lang': 'en',
-        '_ga': 'GA1.2.511745224.1666173838',
-        '_gid': 'GA1.2.1358129550.1666173838',
-        '_fbp': 'fb.1.1666173838731.2809702',
-        'crisp-client%2Fsession%2Fad02dfcf-7460-460d-bc6d-658345899d51': 'session_cf119850-771e-4636-a963-571863ee31a6',
-        'registration': '86a719bcb494a956865de1a35a2c9a06qS4fAZm%2FLIXoMhbZzQFM1IgWwsXC2ibXKYkubFed%2Fkw2VOTTyDlSFFu4%2FqOeenwxSRCTFEerPg4jvAVp6IoJ%2Byo6GTgSK5MpUNlVBeo6YuhVIyxD0%2Fp7tiH8rV%2B0X1zu9RM61MqNDp2z3MvnRh1PL%2Bot9ZzXEqD8OXDDoWdMI4NtcAZRWtMaOJ5rjCBxo525Pirk0zcZYJs7r2D7KMa%2FakcrWpjLbAH1I5omRwON0Q6mpfMdBk5eG3noCxIJ7fCE1w7njm3w0GQ7iCXTKTMGY%2FqqW78XDMGpuQmPY7P8F02dt0Dbgoqk5HXkifUWaMPFw6W37PCQATnORn5fxOFdNNQyRW03xmy2EivABOluxOy4JvVXtwNSx0kf7it4oolyRh7M1Hb9wj%2FFPsVmXn8QiqSViAcSxZdoR7t9rQPDu%2BmkvQPC8uyCRpI9%2FRNmN4BgyBJY%2BVsPeVxOclvfKHjVMRlxhWhYFC6PcX%2FHfjM8UwchAanavN%2BIA18kADfd9X5V4QWIznOr9hskp0Xc7EQFwFmPXGE%2Fc7vuZW8ndGT1zJpAYzq6Nodw4r5pYxiaAccNGgwfUw4R7nSLJ2yoW%2B4BijwYtT9FuI3tcSigoZLWc8CCJ4uRCIyEmgPmI5iOYC5wuWntYDZ583cEZx%2Bqk5u1wVvKxJbz%2FSIqH6VVpPGkFvr4h%2FcJyeU8Al9Exk%2BHinmWMLcc1BHfC3BvfpzUQu8lAbdTAmkAJroXhtaXGajSqQt5r3fEtTgWKnvNNPYTKe%2FeuHc8G%2BCQ6QJGtJYJ9oXmY3vAaAfNuNmlF2RH8L%2BYGKdL2tfH%2Bb960kyL1%2BPsIK3qBX%2BowoNcIgYmJ9cJP26Mz4ij5k0DbbVFqFpZK%2Bv7Iok%3D',
-        'crisp-client%2Fsocket%2Fad02dfcf-7460-460d-bc6d-658345899d51': '1',
-        'session': 'f1e1897fb589f2e6807a85f4cdb1a93eoUhOzVlQINqFxuRtm7g0XaFQng%2FnhdT0bVgyDxKzvtX%2F%2FM%2BQYywYT6FVVj3sYKX3QzaQLOvUMD0gcZ54IKeXAaRoMCko5ocuAw1XDw%2BSDG%2Byl5GoxethTWyaa%2Bfh5QOg',
-        'XSRF-TOKEN': 'f949c10a37fc9d5e33b670e20d7cffff4iiiWlWfgMNVRSLQim4eeAw2%2FcwEek4d10s7yOQWafjuu6o2aubLWub5MTaKvU2whu5Fyu4AMrnyz15qmuvdDJuz1n2oDIt6qFr6SNgTDHwNLZEie73sQFB3buoE4Ek2',
-        '_gat': '1',
+        '_ga': 'GA1.2.323465832.1666253503',
+        '_gid': 'GA1.2.941497815.1666253503',
+        '_fbp': 'fb.1.1666253523334.684749930',
+        'session': '5a36e25b46c39852bd120da0615f219f8AKj38eJE5ubZhwurJc%2FRbYv4JDhtpyBWQNDEsKDEkoQCDPZVJo%2By%2FIgt6UTaLFsB%2Fu%2Fp%2F0w7oQYh59q4ZZgUcDLer2sOtencjHeynDFOiV2VVjPRhJQvf8I5iT9o%2FxS',
+        'XSRF-TOKEN': '502ed94a66d405750e5ebed569befce8sJUUC5FYxuFtrLik171GCPwZN6hRe0jtoKDgGPJRPp%2BfU%2F40o2gwnLR8S4Yo%2FoDiYpsfzZHDfB4tTnlAIifrvVqDuYwIbPXuyQ%2Fs6FthXTPSwGgNHkUz%2B8i5eiphZtce',
+        'crisp-client%2Fsession%2Fad02dfcf-7460-460d-bc6d-658345899d51': 'session_e606aaef-740f-472e-a980-e8c3efe09d14',
     }
 
     self.headers = {
@@ -38,10 +35,9 @@ class PickawContest:
         'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36',
         'x-pickaw-version': '1.22.0',
         'x-requested-with': 'XMLHttpRequest',
-        'x-websocket-id': '__OD71aqEw63_JGdAHgr',
-        'x-xsrf-token': 'f949c10a37fc9d5e33b670e20d7cffff4iiiWlWfgMNVRSLQim4eeAw2/cwEek4d10s7yOQWafjuu6o2aubLWub5MTaKvU2whu5Fyu4AMrnyz15qmuvdDJuz1n2oDIt6qFr6SNgTDHwNLZEie73sQFB3buoE4Ek2',
+        'x-websocket-id': 'zoblALnn1oE1z4xnAJzK',
+        'x-xsrf-token': '502ed94a66d405750e5ebed569befce8sJUUC5FYxuFtrLik171GCPwZN6hRe0jtoKDgGPJRPp+fU/40o2gwnLR8S4Yo/oDiYpsfzZHDfB4tTnlAIifrvVqDuYwIbPXuyQ/s6FthXTPSwGgNHkUz+8i5eiphZtce',
     }
-
   def request_data(self):
     my_dict = {}
     for page in range(1, self.pages):
