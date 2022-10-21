@@ -1464,3 +1464,4 @@ host,seed,url_seed,drawn_at,loaded_at,winner,winner_entries,entries_count,weight
 @missufe,k6hX3RxqoDrjuwBj,https://pickaw.app/api/v1/draws/seed/k6hX3RxqoDrjuwBj,2022-10-21T12:42:42.297Z,2022-10-21T11:25:14.611Z,https://twitter.com/0xcadone,1586,6199,6193,26,>=25
 @Alphawolf_1_,AF0AIpT851shUXcw,https://pickaw.app/api/v1/draws/seed/AF0AIpT851shUXcw,2022-10-21T14:09:42.926Z,2022-10-21T14:09:27.485Z,https://twitter.com/bbhkinii,10720,11488,11466,93,>=75
 @cehlos,gYqX2O8i5tbhiOV5,https://pickaw.app/api/v1/draws/seed/gYqX2O8i5tbhiOV5,2022-10-21T16:12:48.105Z,2022-10-21T16:11:42.189Z,https://twitter.com/everydaywins_qt,2259,10546,10440,21,<=25
+@OctopusPromoter,1PYznQYBdOGWBRyA,https://pickaw.app/api/v1/draws/seed/1PYznQYBdOGWBRyA,2022-10-21T17:45:53.042Z,2022-10-21T17:45:28.550Z,https://twitter.com/alshabigwin,4168,5012,5008,83,>=75
