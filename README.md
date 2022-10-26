@@ -1,3 +1,3 @@
-# Data tanggal: 2022-10-26 10:33:16.600591+07:00
+# Data tanggal: 2022-10-26 11:38:16.507185+07:00
 
-* {'f9dZEaz9xu68aDgb': 12562, 'AfhDigkD3wBIqq4W': 7744, 'pj3rMKUNlgknEiM0': 14923}
+* {'DTO2LCrYsj9ryuPh': 7488, 'tXbmsd2GpjRJGBYu': 4225, 'wUQAJZHWDr7Gt1b1': 2598, 'xK6YxWr0b4TXhC8I': 11048, 'Z2T4aNGSAxEFnNND': 10778}
