@@ -1,3 +1,3 @@
-# Data tanggal: 2022-11-11 19:30:17.193861+07:00
+# Data tanggal: 2022-11-11 20:26:59.185170+07:00
 
-* {'Fyx47ZeJvpioTAxs': 4357, '2G96FW0yxKIYR7I7': 7484, 'TNAEAt3NHXCNR8QL': 6185}
+* {'ydQCmymub9coEk95': 5439, 'OA6odHAtPAys7ggS': 13205, 'G9Kbge9ZBJjTX3Vp': 15951}
