@@ -1,3 +1,3 @@
-# Data tanggal: 2022-11-11 13:21:04.194764+07:00
+# Data tanggal: 2022-11-11 13:57:58.898505+07:00
 
-* {'EFqkC9r7i1EJZw7l': 15008, 'm5y1LgAE0KZ3i1Fq': 11722}
+* {'c1ZAM3vGA96k6pLy': 13846, 'zKUzSsjfE18XIJtt': 5626, 'iQUHtZvdmPLIuwQE': 13072}
