@@ -1,3 +1,3 @@
-# Data tanggal: 2022-11-15 21:12:12.147461+07:00
+# Data tanggal: 2022-11-15 22:14:03.718549+07:00
 
-* {'TXN2UvJM4SjBoJ3s': 5808, '9eNb2SX0NlMOfzTe': 10212, 'YPq28oN4qjAjhCRE': 5589, '5Ry2iBsECHfyW9Kq': 4557, '5jZzqslFcG8fKizY': 14074, 'mmouXX1PxWvKtRU9': 2561, 'xkWcLBVjKrrTBeIY': 7706, 'SrsndtqX4rqDCNoK': 3437, 'LutCqv898ae08DcQ': 12272}
+* {'xHoIHCfCmgEkgc2W': 6933, 'GBOIzc7wEwRYBwmR': 6090, 'qowv7dkP0BGYUIGO': 7896, 'j9qzjEFtf4g0mL7F': 11205, 'tnvf00OhgsI9IB1x': 15410, 'mpbv4G4Rf57oMAQc': 14924}
