@@ -1,3 +1,3 @@
-# Data tanggal: 2022-11-25 16:44:27.444451+07:00
+# Data tanggal: 2022-11-25 17:13:36.260188+07:00
 
-* {'FvOIonH3nrWnhCXh': 3017, '9k3P7mnKXY7FYVGB': 6492, 'YgpXTwlGu0ZfLbOU': 2343, '6vVCvHoL6nOlwkaq': 2908}
+* {'wdbnJ4jEgSXNsk1R': 1731}
