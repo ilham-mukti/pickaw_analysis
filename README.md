@@ -1,3 +1,3 @@
-# Data tanggal: 2022-12-03 13:14:00.760222+07:00
+# Data tanggal: 2022-12-03 13:45:14.846348+07:00
 
-* {'SGCRKoclf9pE5g5p': 6673, 'qVolwGTpNUTshWVV': 4743, 'eYBn8rK3zvsnMXD2': 9605}
+* {'MNGsGLcp4xa3hLoS': 3022, 'PK1kEEDkUcvnDyd3': 4233, 'R72TNchB7iHPLHkB': 4770}
