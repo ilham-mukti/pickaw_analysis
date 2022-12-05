@@ -1,3 +1,3 @@
-# Data tanggal: 2022-12-05 23:16:10.355339+07:00
+# Data tanggal: 2022-12-05 23:52:23.291138+07:00
 
-* {'FhJ1g100OjC6YUVH': 11085, 'RaBSnWmHqegCfgje': 6851, 'XSIuPwn2YFOYEiJQ': 4605}
+* {'ZZ8UZYlwte8zZeMi': 4866, 'IcJT1TeC61RwXYOK': 11369}
