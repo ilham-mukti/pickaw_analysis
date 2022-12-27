@@ -13,11 +13,13 @@ class PickawContest:
     self.seed_list = "seed_list.json"
     self.cookies = {
         'i18n-lang': 'en',
-        'crisp-client%2Fsession%2Fad02dfcf-7460-460d-bc6d-658345899d51': 'session_8f0c6528-cdc5-410a-b2a8-4fdf36761cd0',
-        'registration': 'acf35034dff90f381b14fb3aac34c079aKf5xxRxwEnDozIO80V1LPN4fTdCptpysKs89wzWcDw7uRA2qObH4wqfOGamSXQUumB%2B9zpjrQaupyhoW46ZcC4D%2BWZ%2BzCNK%2FMlY3xH5Wqpi2bfGFys0N0wufKH4kyXTc9Aq%2B27yXflmNrYzfEpcSa3%2B%2BKQ24XnobqVoHY0P9psyJzkQk3mnTWZGIMQCVd6Xyerfg7oqmBTklGDGb2CyyPFdPY8%2BDwMNKxGferQ6xaN0gGxzU0a%2FUg%2Fn2dGPEOp428YG96o3y0cVrIHLcrId2tlrUjRbKxXe8w20fvEQ%2BnhnI8VWnwBoq%2BDlybMuvLKpoOLKPu9GSSmbzrRIRcdw82i977aK5Wq1WOMRVWD9vkCA7NGHwId4djGWl9VKHDA%2BDSPEMHDmRSjec6IjIoq2P7cIRzBX%2FipR6RR1aybWaLLvRSvM6h%2F%2FXyICqysnOEIQXU4DzXnyr8kXI3nAn%2FttCTGFp5dNwP0feU2iz%2BuC1NbbiHyCRBlC504lNxfOIRc5t4EsnPgz12nqxglhaQ5VqjEglSYbowjdLMqzr6L38%2BEI8BhwtdjDZNk7aHVttJkZ8u98AmtjJyhsrNmuo9Y18OH2f%2BbMd9QFPRQlE6KJHjqXiIteKXjJ%2BGJwB3afqxiHmY9Nn1KoEtWOhgNKFeH%2BCYG5PGWdLNXkwyOjevfp83Fi9Z9cvyz2mc%2FLY4U%2BuF08ZBx2YGsb7%2BnEkfXn7Z2%2B2WxRvR8amLUGjJnVRiAQIO5esZ71i4T4nQ0eGe0JCu6WwQagHtWjqtyhm%2BvsYWlarxilX7%2BlflT2BVyNl%2F5Jb5KCQ%2FzGoRxvB2W3lrYTp%2FHhCbglVtkMIgLo5cIfP120VfVkt1D1fBVx3QccfGSPBaM%3D',
-        'crisp-client%2Fsocket%2Fad02dfcf-7460-460d-bc6d-658345899d51': '1',
-        'session': 'ea46b8b6fc358c357724e614596ba407EdwG7yON1Gih%2BdyHpGgBjNTbRUE6xb6W5vYOPjGSs0StEMBfDjAzFjRCLn80dKfmQwfDxYkoe0Y6cgM%2BhU8USfGqwHQ2POxmSBz2kcVTmv4xCZLUy8tJ3or34v5oo9Tx',
-        'XSRF-TOKEN': '20a871b3ec1f6f00efe1198b8df3639buDXkkL%2BcxuhhzQ9beVeZAru6dYPZiDanwV6WL5Tr%2FclQjgoViA8hDiD8opB5pswsjAQ4MTWMX4qeD%2FNI0mSXe15pT5N5hIEblBffUfpD1d%2BgbuXMrVoS3uv9%2BxVhETaY',
+        '_ga': 'GA1.2.966894380.1672163046',
+        '_gid': 'GA1.2.1151518720.1672163046',
+        '_fbp': 'fb.1.1672163046311.953956500',
+        'crisp-client%2Fsession%2Fad02dfcf-7460-460d-bc6d-658345899d51': 'session_ddbda3cd-3908-4049-8700-beae6f5d4c17',
+        'session': '9ae366c9f5616062d16b721c4a415084Eqk4aaVsXnw%2FTcn9ex30PKmpQQJAwUperb%2BwmTwweliqy6hjx7k%2B0OO0%2BkD0TVAIeJlXtQfUtOri5GhSMmIpXqIcBp01GlDBPrhdNiC5o4%2Bgy2by2FiJS0CQb1dEOvQd',
+        'XSRF-TOKEN': 'ff6725193b569036fa405c96fa9e0fbb6AdFIkSa0wQnx%2BdjM7OzoFzQV%2Fldrix2Too6WFFKZsCbnlGm8WK9aAHI5UcjxD37XvNTiewUXwVczBFIwh67mw6IUKNd2amDWsBeVEvfORlHPT12ImRXCrqr4yBIjyYZ',
+        '_gat': '1',
     }
 
     self.headers = {
@@ -25,18 +27,19 @@ class PickawContest:
         'accept': 'application/json, text/plain, */*',
         'accept-language': 'id-ID,id;q=0.9',
         'referer': 'https://pickaw.app/me/contests',
-        'sec-ch-ua': '"Google Chrome";v="107", "Chromium";v="107", "Not=A?Brand";v="24"',
+        'sec-ch-ua': '"Not?A_Brand";v="8", "Chromium";v="108", "Google Chrome";v="108"',
         'sec-ch-ua-mobile': '?0',
         'sec-ch-ua-platform': '"Windows"',
         'sec-fetch-dest': 'empty',
         'sec-fetch-mode': 'cors',
         'sec-fetch-site': 'same-origin',
-        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36',
-        'x-pickaw-version': '1.23.1',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36',
+        'x-pickaw-version': '1.23.3',
         'x-requested-with': 'XMLHttpRequest',
-        'x-websocket-id': 'XVrjeaRA6YMhX3SnAbfX',
-        'x-xsrf-token': '20a871b3ec1f6f00efe1198b8df3639buDXkkL+cxuhhzQ9beVeZAru6dYPZiDanwV6WL5Tr/clQjgoViA8hDiD8opB5pswsjAQ4MTWMX4qeD/NI0mSXe15pT5N5hIEblBffUfpD1d+gbuXMrVoS3uv9+xVhETaY',
+        'x-websocket-id': 'U93iXlfSDrco9GxaAju7',
+        'x-xsrf-token': 'ff6725193b569036fa405c96fa9e0fbb6AdFIkSa0wQnx+djM7OzoFzQV/ldrix2Too6WFFKZsCbnlGm8WK9aAHI5UcjxD37XvNTiewUXwVczBFIwh67mw6IUKNd2amDWsBeVEvfORlHPT12ImRXCrqr4yBIjyYZ',
     }
+
   def request_data(self):
     my_dict = {}
     for page in range(1, self.pages):
