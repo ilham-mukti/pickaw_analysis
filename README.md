@@ -1,3 +1,3 @@
-# Data tanggal: 2023-01-16 09:37:11.471433+07:00
+# Data tanggal: 2023-01-16 09:57:35.196001+07:00
 
-* {'1WSpvqDWxZNd8ucJ': 2876, '7GBIfRLYyRYsa0WZ': 2599, 'yWdviU1k9bQaFCS2': 6474, 'iwOOzAAqn55EMTWl': 1515, 'O6qiBEd2qqUDdezj': 8087, 'YaUP8Q6XvJ8JDRxe': 1068, '05I9SoZpBrkDjrRB': 2626, 'aSS5Ly5wp7ReuWJq': 1676, 'Q9y4SLVTJGeQ7YK1': 3440, 'Vt2Vf4DzgzuRpCGK': 1396}
+* {'w7BvJt4dmmzIhqjN': 8081}
