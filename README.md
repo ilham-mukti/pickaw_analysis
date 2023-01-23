@@ -1,3 +1,3 @@
-# Data tanggal: 2023-01-23 19:24:22.288808+07:00
+# Data tanggal: 2023-01-23 20:01:58.098638+07:00
 
-* {'OsDOf1hQz8Ly4Lzl': 3633, 'dg6qCEhfMXHkdScf': 8410, 'aewHJVvkEE5SwJSh': 10620, 'Yt5YE756snJ3UFiU': 8940}
+* {'DKM6t7iBgwKLVhor': 1263, 'fx8gk7Hjb7etzIiY': 5526}
