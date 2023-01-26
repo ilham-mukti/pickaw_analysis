@@ -1,3 +1,3 @@
-# Data tanggal: 2023-01-26 08:04:25.642890+07:00
+# Data tanggal: 2023-01-26 09:34:47.389674+07:00
 
-* {'M7TxE7FXVI25Jnm8': 1553, 'zNks3iY7M1wrWon6': 1615, '98OoZG7hCtzk9QYr': 1605, 'dkhZ2BhwGbCDbE8k': 1635, 'NETuA4vLCg9NGl7f': 1672, 'Cd7Ab5xpr88bjwP2': 1654, 'OwMIwFIkvA5d9PJd': 1585, 'RmYqlrORq9Lt7mEb': 2966, 'hjc57yl1dzIs2teV': 3413, 'RBEDEH7uIY9RCQY3': 2020}
+* {'fFFViwnxXAa9VTLd': 4843, 'I1U1dxeOMEhLmTpu': 6083, 'Wz6Psw0Nl5RCPsz7': 4203, 'nMPoiOw0KG9uAL4G': 2939, 'AfVklzmO8c3XtAd9': 6802}
