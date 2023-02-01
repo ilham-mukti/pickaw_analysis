@@ -13,13 +13,18 @@ class PickawContest:
     self.seed_list = "seed_list.json"
     self.cookies = {
         'i18n-lang': 'en',
-        '_ga': 'GA1.2.966894380.1672163046',
-        '_gid': 'GA1.2.1151518720.1672163046',
-        '_fbp': 'fb.1.1672163046311.953956500',
-        'crisp-client%2Fsession%2Fad02dfcf-7460-460d-bc6d-658345899d51': 'session_ddbda3cd-3908-4049-8700-beae6f5d4c17',
-        'session': '9ae366c9f5616062d16b721c4a415084Eqk4aaVsXnw%2FTcn9ex30PKmpQQJAwUperb%2BwmTwweliqy6hjx7k%2B0OO0%2BkD0TVAIeJlXtQfUtOri5GhSMmIpXqIcBp01GlDBPrhdNiC5o4%2Bgy2by2FiJS0CQb1dEOvQd',
-        'XSRF-TOKEN': 'ff6725193b569036fa405c96fa9e0fbb6AdFIkSa0wQnx%2BdjM7OzoFzQV%2Fldrix2Too6WFFKZsCbnlGm8WK9aAHI5UcjxD37XvNTiewUXwVczBFIwh67mw6IUKNd2amDWsBeVEvfORlHPT12ImRXCrqr4yBIjyYZ',
+        '_ga': 'GA1.2.1235118764.1675263230',
+        '_gid': 'GA1.2.1230196898.1675263230',
         '_gat': '1',
+        '_fbp': 'fb.1.1675263230127.657079218',
+        '_hjFirstSeen': '1',
+        '_hjIncludedInSessionSample': '0',
+        '_hjSession_3321793': 'eyJpZCI6IjVhYTQwZDc5LWEzNTEtNGRiNy05NDk0LTkxZjMzYzU1ZWM1ZCIsImNyZWF0ZWQiOjE2NzUyNjMyMzA5NDQsImluU2FtcGxlIjpmYWxzZX0=',
+        '_hjAbsoluteSessionInProgress': '0',
+        'crisp-client%2Fsession%2Fad02dfcf-7460-460d-bc6d-658345899d51': 'session_00243d91-70e3-4c8c-80ae-b93cb4f0019b',
+        '_hjSessionUser_3321793': 'eyJpZCI6ImEzZmM1YThkLTc5YzUtNWQ5NS1hZmIyLTlhODYzZDNhNzYxNSIsImNyZWF0ZWQiOjE2NzUyNjMyMzAwNTksImV4aXN0aW5nIjp0cnVlfQ==',
+        'session': '7cb761b3794ed963e770a035757413daTXf5N6YzbWYuvSxFqGmR2ZMcou682B1rphAMjpbd9fN2tKfxxXFBDE9ByEvSmy6t2%2BWBuvXzF%2BJjN7EoiMVTVgTvaycmrPWdy4M10Ng9KnB2rgJcAdj7idiOmRHvkDwY',
+        'XSRF-TOKEN': '2a3f25cf033a957367ca5d358b348841Ri4Cq5NM1mCc9qfEvdNJbFw6q0atr0wPBGcJvcVTWZQriIJ3W7VoWDqMmE%2FrxUgdE0GAP3rOpOiKCbHyEPxQ18oM%2Bg5NTq6BfZIMl8K9odU5M4qROMJwjF1KzIAEvdu%2B',
     }
 
     self.headers = {
@@ -27,17 +32,17 @@ class PickawContest:
         'accept': 'application/json, text/plain, */*',
         'accept-language': 'id-ID,id;q=0.9',
         'referer': 'https://pickaw.app/me/contests',
-        'sec-ch-ua': '"Not?A_Brand";v="8", "Chromium";v="108", "Google Chrome";v="108"',
+        'sec-ch-ua': '"Not_A Brand";v="99", "Google Chrome";v="109", "Chromium";v="109"',
         'sec-ch-ua-mobile': '?0',
         'sec-ch-ua-platform': '"Windows"',
         'sec-fetch-dest': 'empty',
         'sec-fetch-mode': 'cors',
         'sec-fetch-site': 'same-origin',
-        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36',
-        'x-pickaw-version': '1.23.3',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36',
+        'x-pickaw-version': '1.24.11',
         'x-requested-with': 'XMLHttpRequest',
-        'x-websocket-id': 'U93iXlfSDrco9GxaAju7',
-        'x-xsrf-token': 'ff6725193b569036fa405c96fa9e0fbb6AdFIkSa0wQnx+djM7OzoFzQV/ldrix2Too6WFFKZsCbnlGm8WK9aAHI5UcjxD37XvNTiewUXwVczBFIwh67mw6IUKNd2amDWsBeVEvfORlHPT12ImRXCrqr4yBIjyYZ',
+        'x-websocket-id': '-OJgpTn_a6aSM1qvACp8',
+        'x-xsrf-token': '2a3f25cf033a957367ca5d358b348841Ri4Cq5NM1mCc9qfEvdNJbFw6q0atr0wPBGcJvcVTWZQriIJ3W7VoWDqMmE/rxUgdE0GAP3rOpOiKCbHyEPxQ18oM+g5NTq6BfZIMl8K9odU5M4qROMJwjF1KzIAEvdu+',
     }
 
   def request_data(self):
