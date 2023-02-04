@@ -1,3 +1,3 @@
-# Data tanggal: 2023-02-04 08:03:54.454930+07:00
+# Data tanggal: 2023-02-04 09:32:16.098923+07:00
 
-* {'5SEMUm6Bgjm9n3cF': 3854, 'VFrxNRWjUzdrzzhy': 2936}
+* {'5JFIIcwpPFgV4pDZ': 5035, 'AuGMdamDj0rA1nr6': 6546, 'MiaaONFCV7lVTx5b': 4727, 'u9VvF7NXVxbSy2Ul': 2585, 'V0gOlJYLnOm48ctY': 2385, 'NlvREDn3pwwtOsEj': 5962}
