@@ -1,3 +1,3 @@
-# Data tanggal: 2023-02-09 22:44:49.215964+07:00
+# Data tanggal: 2023-02-09 23:18:20.439865+07:00
 
-* {'EEQkae3va9Paf4fO': 3029, 'U5RSwCt3U0aU7MIK': 9560, 'Xcm74VimuJszkRa6': 9689, 'fJ4hE5HAucV1kh24': 2188, 'ET1u27xh4VJbb9an': 2078}
+* {'hvc3LtLFK8Cb8Ez2': 6041, 'GqJtIhw8RKGbCnMI': 9820, 'r0vBCvAw79HqzgTR': 9815, 'aM9yxPV32fU6lIxb': 8961, 'eerST0jEaXxRNK8R': 1725}
