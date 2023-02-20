@@ -1,3 +1,3 @@
-# Data tanggal: 2023-02-20 14:44:45.481937+07:00
+# Data tanggal: 2023-02-20 15:17:42.682294+07:00
 
-* {'QGtSyKVWgW4BUBLQ': 13154, 'Z3rDUfcXmRenLM6z': 8781}
+* {'qlrRB9P5y5XuO0TA': 8130}
