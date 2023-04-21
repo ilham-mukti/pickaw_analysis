@@ -1,3 +1,3 @@
-# Data tanggal: 2023-04-21 21:44:43.897413+07:00
+# Data tanggal: 2023-04-21 22:12:13.810917+07:00
 
-* {'AplmN6GxF6ftiMn1': 1583, 'jd2yhxc8ZrsOTdp9': 4060, 'LANlweasay3toNDg': 5700}
+* {'Gpp1odvLckeHbGvj': 4041, 'Ye8xIjUszZrQEojA': 3144, 'Vv0jL44HTwRyxuuQ': 9114, 'oLSPWAtLM3sj8SKy': 7647, 'xX1f3GiaJ44hmNeB': 4608, 'TnSSe1YYFroeOgdn': 9288}
