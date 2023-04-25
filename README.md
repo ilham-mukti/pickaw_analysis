@@ -1,3 +1,3 @@
-# Data tanggal: 2023-04-25 22:12:26.753118+07:00
+# Data tanggal: 2023-04-25 22:44:42.123556+07:00
 
-* {'YCvvRDSk9ERqe48O': 2288, 'VYwMpBHMGvDGgvhM': 8767, 'ZNjk44HsfBU3bwgW': 8226, 'pAuybSbZb5QgqZ9e': 9326, 'sI0LtpYNJjJSys94': 6990, 'hptihn7ZIA5IKvDZ': 3477, 'eBo6CvZtsjw5ha5s': 8025, 'puC4b4BscHmn2JVv': 5854, 'JVDJMBFxeL0Dvq2j': 2922, 'mSUrCqLoBW7kM8ov': 6486, 'GdVocYMB035xoKwc': 5926, 'NZDpmqGt5xLkLoHm': 5444, 'ZzGnzTdq6bBi7MPm': 13044, '9eXaDdWsHDWImCaz': 7091, 'SiJUxDW0BZ1APGwL': 6447, 'SE6vNWz5OwjsbrWa': 4744, 'sjcnIPAVNYItgeZi': 5848, '51EAZabd5tJQOfDe': 6145, 'BB0pLlcpYUg0Pipa': 6852, 'n7qcuojvIizx5zVN': 5497, 'YChCFg53faiO1J5E': 11764, '9sKqWCLfontgtX7X': 7685, 'PTQTn50askiSvT3x': 14868, 'w7W8hFUw3dSH9QKm': 14297}
+* {}
